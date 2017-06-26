@@ -1,0 +1,54 @@
+c:\users\kamil cieślik\documents\visual studio 2015\Projects\RogalApplication\RogalApplication\bin\Debug\RogalApplication.exe.config
+c:\users\kamil cieślik\documents\visual studio 2015\Projects\RogalApplication\RogalApplication\obj\Debug\RogalApplication.csprojResolveAssemblyReference.cache
+c:\users\kamil cieślik\documents\visual studio 2015\Projects\RogalApplication\RogalApplication\obj\Debug\BazaKlientów.MainFrame.resources
+c:\users\kamil cieślik\documents\visual studio 2015\Projects\RogalApplication\RogalApplication\obj\Debug\RogalApplication.Properties.Resources.resources
+c:\users\kamil cieślik\documents\visual studio 2015\Projects\RogalApplication\RogalApplication\obj\Debug\BazaKlientów.TradePredefinitions.resources
+c:\users\kamil cieślik\documents\visual studio 2015\Projects\RogalApplication\RogalApplication\obj\Debug\RogalApplication.csproj.GenerateResource.Cache
+c:\users\kamil cieślik\documents\visual studio 2015\Projects\RogalApplication\RogalApplication\bin\Debug\RogalApplication.exe
+c:\users\kamil cieślik\documents\visual studio 2015\Projects\RogalApplication\RogalApplication\bin\Debug\RogalApplication.pdb
+c:\users\kamil cieślik\documents\visual studio 2015\Projects\RogalApplication\RogalApplication\bin\Debug\EntityFramework.dll
+c:\users\kamil cieślik\documents\visual studio 2015\Projects\RogalApplication\RogalApplication\bin\Debug\EntityFramework.SqlServer.dll
+c:\users\kamil cieślik\documents\visual studio 2015\Projects\RogalApplication\RogalApplication\bin\Debug\EntityFramework.xml
+c:\users\kamil cieślik\documents\visual studio 2015\Projects\RogalApplication\RogalApplication\bin\Debug\EntityFramework.SqlServer.xml
+c:\users\kamil cieślik\documents\visual studio 2015\Projects\RogalApplication\RogalApplication\obj\Debug\RogalApplication.exe
+c:\users\kamil cieślik\documents\visual studio 2015\Projects\RogalApplication\RogalApplication\obj\Debug\RogalApplication.pdb
+c:\users\kamil cieślik\documents\visual studio 2015\Projects\RogalApplication\RogalApplication\obj\Debug\RogalApplication.Migrations.InitialCreate.resources
+c:\users\kamil cieślik\documents\visual studio 2015\Projects\RogalApplication\RogalApplication\obj\Debug\RogalApplication.Migrations._1.resources
+C:\Users\Kamil Cieślik\Documents\Visual Studio 2015\Projects\RogalApplication\RogalApplication\obj\Debug\RogalApplication.ProvincePredefinitions.resources
+D:\RogalApplication\RogalApplication\bin\Debug\RogalApplication.exe.config
+D:\RogalApplication\RogalApplication\obj\Debug\RogalApplication.exe
+D:\RogalApplication\RogalApplication\obj\Debug\RogalApplication.pdb
+D:\RogalApplication\RogalApplication\bin\Debug\RogalApplication.exe
+D:\RogalApplication\RogalApplication\bin\Debug\RogalApplication.pdb
+D:\RogalApplication\RogalApplication\bin\Debug\EntityFramework.dll
+D:\RogalApplication\RogalApplication\bin\Debug\EntityFramework.SqlServer.dll
+D:\RogalApplication\RogalApplication\bin\Debug\EntityFramework.xml
+D:\RogalApplication\RogalApplication\bin\Debug\EntityFramework.SqlServer.xml
+D:\RogalApplication\RogalApplication\obj\Debug\RogalApplication.csprojResolveAssemblyReference.cache
+D:\RogalApplication\RogalApplication\obj\Debug\BazaKlientów.MainFrame.resources
+D:\RogalApplication\RogalApplication\obj\Debug\RogalApplication.Migrations.InitialCreate.resources
+D:\RogalApplication\RogalApplication\obj\Debug\RogalApplication.Migrations._1.resources
+D:\RogalApplication\RogalApplication\obj\Debug\RogalApplication.Properties.Resources.resources
+D:\RogalApplication\RogalApplication\obj\Debug\RogalApplication.ProvincePredefinitions.resources
+D:\RogalApplication\RogalApplication\obj\Debug\BazaKlientów.TradePredefinitions.resources
+D:\RogalApplication\RogalApplication\obj\Debug\RogalApplication.csproj.GenerateResource.Cache
+D:\GitHub Repositories\OfficesApplication\RogalApplication_v3\RogalApplication\bin\Debug\RogalApplication.exe.config
+D:\GitHub Repositories\OfficesApplication\RogalApplication_v3\RogalApplication\bin\Debug\RogalApplication.exe
+D:\GitHub Repositories\OfficesApplication\RogalApplication_v3\RogalApplication\bin\Debug\RogalApplication.pdb
+D:\GitHub Repositories\OfficesApplication\RogalApplication_v3\RogalApplication\bin\Debug\EntityFramework.dll
+D:\GitHub Repositories\OfficesApplication\RogalApplication_v3\RogalApplication\bin\Debug\EntityFramework.SqlServer.dll
+D:\GitHub Repositories\OfficesApplication\RogalApplication_v3\RogalApplication\bin\Debug\EntityFramework.xml
+D:\GitHub Repositories\OfficesApplication\RogalApplication_v3\RogalApplication\bin\Debug\EntityFramework.SqlServer.xml
+D:\GitHub Repositories\OfficesApplication\RogalApplication_v3\RogalApplication\obj\Debug\RogalApplication.csprojResolveAssemblyReference.cache
+D:\GitHub Repositories\OfficesApplication\RogalApplication_v3\RogalApplication\obj\Debug\BazaKlientów.MainFrame.resources
+D:\GitHub Repositories\OfficesApplication\RogalApplication_v3\RogalApplication\obj\Debug\RogalApplication.Migrations.InitialCreate.resources
+D:\GitHub Repositories\OfficesApplication\RogalApplication_v3\RogalApplication\obj\Debug\RogalApplication.Migrations._1.resources
+D:\GitHub Repositories\OfficesApplication\RogalApplication_v3\RogalApplication\obj\Debug\RogalApplication.Properties.Resources.resources
+D:\GitHub Repositories\OfficesApplication\RogalApplication_v3\RogalApplication\obj\Debug\RogalApplication.ProvincePredefinitions.resources
+D:\GitHub Repositories\OfficesApplication\RogalApplication_v3\RogalApplication\obj\Debug\BazaKlientów.TradePredefinitions.resources
+D:\GitHub Repositories\OfficesApplication\RogalApplication_v3\RogalApplication\obj\Debug\RogalApplication.csproj.GenerateResource.Cache
+D:\GitHub Repositories\OfficesApplication\RogalApplication_v3\RogalApplication\obj\Debug\RogalApplication.exe
+D:\GitHub Repositories\OfficesApplication\RogalApplication_v3\RogalApplication\obj\Debug\RogalApplication.pdb
+D:\Projects\C#\privateProject_officesDatabaseApplication\RogalApplication\bin\Debug\RogalApplication.exe.config
+D:\Projects\C#\privateProject_officesDatabaseApplication\RogalApplication\obj\Debug\RogalApplication.exe
+D:\Projects\C#\privateProject_officesDatabaseApplication\RogalApplication\obj\Debug\RogalApplication.pdb
