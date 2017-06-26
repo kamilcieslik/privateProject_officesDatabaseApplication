@@ -52,3 +52,17 @@ D:\GitHub Repositories\OfficesApplication\RogalApplication_v3\RogalApplication\o
 D:\Projects\C#\privateProject_officesDatabaseApplication\RogalApplication\bin\Debug\RogalApplication.exe.config
 D:\Projects\C#\privateProject_officesDatabaseApplication\RogalApplication\obj\Debug\RogalApplication.exe
 D:\Projects\C#\privateProject_officesDatabaseApplication\RogalApplication\obj\Debug\RogalApplication.pdb
+D:\Projects\C#\privateProject_officesDatabaseApplication\RogalApplication\bin\Debug\RogalApplication.exe
+D:\Projects\C#\privateProject_officesDatabaseApplication\RogalApplication\bin\Debug\RogalApplication.pdb
+D:\Projects\C#\privateProject_officesDatabaseApplication\RogalApplication\bin\Debug\EntityFramework.dll
+D:\Projects\C#\privateProject_officesDatabaseApplication\RogalApplication\bin\Debug\EntityFramework.SqlServer.dll
+D:\Projects\C#\privateProject_officesDatabaseApplication\RogalApplication\bin\Debug\EntityFramework.xml
+D:\Projects\C#\privateProject_officesDatabaseApplication\RogalApplication\bin\Debug\EntityFramework.SqlServer.xml
+D:\Projects\C#\privateProject_officesDatabaseApplication\RogalApplication\obj\Debug\RogalApplication.csprojResolveAssemblyReference.cache
+D:\Projects\C#\privateProject_officesDatabaseApplication\RogalApplication\obj\Debug\RogalApplication.MainFrame.resources
+D:\Projects\C#\privateProject_officesDatabaseApplication\RogalApplication\obj\Debug\RogalApplication.Migrations.InitialCreate.resources
+D:\Projects\C#\privateProject_officesDatabaseApplication\RogalApplication\obj\Debug\RogalApplication.Migrations._1.resources
+D:\Projects\C#\privateProject_officesDatabaseApplication\RogalApplication\obj\Debug\RogalApplication.Properties.Resources.resources
+D:\Projects\C#\privateProject_officesDatabaseApplication\RogalApplication\obj\Debug\RogalApplication.ProvincePredefinitions.resources
+D:\Projects\C#\privateProject_officesDatabaseApplication\RogalApplication\obj\Debug\RogalApplication.csproj.GenerateResource.Cache
+D:\Projects\C#\privateProject_officesDatabaseApplication\RogalApplication\obj\Debug\RogalApplication.TradePredefinitions.resources

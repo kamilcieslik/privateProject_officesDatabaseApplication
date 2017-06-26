@@ -1,11 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 using RogalApplication.Properties;
 
@@ -13,16 +6,16 @@ namespace RogalApplication
 {
     public partial class ProvincePredefinitions : Form
     {
-        public ComboBox comboBoxProvince;
+        public ComboBox ComboBoxProvince;
         public ProvincePredefinitions(ComboBox comboBoxProvince)
         {
-            this.comboBoxProvince = comboBoxProvince;
+            ComboBoxProvince = comboBoxProvince;
 
             InitializeComponent();
 
-            for (int i = 0; i < comboBoxProvince.Items.Count; i++)
+            foreach (var t in comboBoxProvince.Items)
             {
-                listBoxProvincePredefinitions.Items.Add(comboBoxProvince.Items[i].ToString());
+                listBoxProvincePredefinitions.Items.Add(t.ToString());
             }
         }
 
@@ -36,25 +29,23 @@ namespace RogalApplication
 
         private void buttonAdd_Click(object sender, EventArgs e)
         {
-            if (textBoxPredefinition.Text != "")
-            {
-                listBoxProvincePredefinitions.Items.Add(textBoxPredefinition.Text);
-                textBoxPredefinition.Text = "";
-            }
+            if (textBoxPredefinition.Text == "") return;
+            listBoxProvincePredefinitions.Items.Add(textBoxPredefinition.Text);
+            textBoxPredefinition.Text = "";
         }
 
         private void ProvincePredefinitions_FormClosing(object sender, FormClosingEventArgs e)
         {
             Settings.Default.ListProvincePredefinitions.Clear();
             
-            for (int i = 0; i < comboBoxProvince.Items.Count; i++)
+            for (var i = 0; i < ComboBoxProvince.Items.Count; i++)
             {
-                comboBoxProvince.Items.RemoveAt(i);
+                ComboBoxProvince.Items.RemoveAt(i);
             }
-            for (int i = 0; i < listBoxProvincePredefinitions.Items.Count; i++)
+            foreach (var t in listBoxProvincePredefinitions.Items)
             {
-                comboBoxProvince.Items.Add(listBoxProvincePredefinitions.Items[i].ToString());
-                Settings.Default.ListProvincePredefinitions.Add(listBoxProvincePredefinitions.Items[i].ToString());
+                ComboBoxProvince.Items.Add(t.ToString());
+                Settings.Default.ListProvincePredefinitions.Add(t.ToString());
             }
             Settings.Default.Save();
         }

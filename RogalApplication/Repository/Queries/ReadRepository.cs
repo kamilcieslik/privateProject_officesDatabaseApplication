@@ -1,12 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using BazaKlientów.Model;
-using BazaKlientów.Repository.Queries.Interfaces;
+using BazaKlientów;
+using RogalApplication.Model;
+using RogalApplication.Repository.Queries.Interfaces;
 
-namespace BazaKlientów.Repository.Queries
+namespace RogalApplication.Repository.Queries
 {
     public class ReadRepository<T> : IReadRepository<T> where T : Entity
     {
@@ -14,7 +12,7 @@ namespace BazaKlientów.Repository.Queries
 
         public ReadRepository(CustomerDatabaseContext context)
         {
-            this._context = context;
+            _context = context;
         }
         public IList<T> GetAll()
         {
@@ -23,7 +21,7 @@ namespace BazaKlientów.Repository.Queries
 
         public T GetById(int id)
         {
-            return _context.Set<T>().Where(x => x.ID == id).FirstOrDefault();
+            return _context.Set<T>().FirstOrDefault(x => x.ID == id);
         }
     }
 }

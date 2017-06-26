@@ -1,4 +1,4 @@
-﻿namespace BazaKlientów
+﻿namespace RogalApplication
 {
     partial class MainFrame
     {
@@ -547,7 +547,7 @@
             this.tableLayoutPanel2.Size = new System.Drawing.Size(473, 289);
             this.tableLayoutPanel2.TabIndex = 1;
             // 
-            // comboBoxTrade
+            // ComboBoxTrade
             // 
             this.comboBoxTrade.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
@@ -723,7 +723,7 @@
             this.labelProvince.TabIndex = 3;
             this.labelProvince.Text = "Województwo:";
             // 
-            // comboBoxProvince
+            // ComboBoxProvince
             // 
             this.comboBoxProvince.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 

@@ -1,11 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using BazaKlientów.Model;
+﻿using System.Collections.Generic;
+using RogalApplication.Model;
 
-namespace BazaKlientów.Repository.Queries.Interfaces
+namespace RogalApplication.Repository.Queries.Interfaces
 {
     public interface IReadRepository<T> where T : Entity
     {

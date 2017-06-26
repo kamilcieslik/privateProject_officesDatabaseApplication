@@ -1,4 +1,4 @@
-﻿namespace BazaKlientów
+﻿namespace RogalApplication
 {
     partial class TradePredefinitions
     {

@@ -1,19 +1,15 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using BazaKlientów.Model;
-using BazaKlientów.Repository.Commands.Interfaces;
+﻿using BazaKlientów;
+using RogalApplication.Model;
+using RogalApplication.Repository.Commands.Interfaces;
 
-namespace BazaKlientów.Repository.Commands
+namespace RogalApplication.Repository.Commands
 {
     public class WriteRepository<T> : IWriteRepository<T> where T : Entity
     {
         private readonly CustomerDatabaseContext _context;
         public WriteRepository(CustomerDatabaseContext context)
         {
-            this._context = context;
+            _context = context;
         }
 
         public void Create(T entity)
@@ -30,8 +26,8 @@ namespace BazaKlientów.Repository.Commands
 
         public void Edit(T entity, T updated)
         {
-            _context.Entry<T>(entity).CurrentValues.SetValues(updated);
-            _context.Entry<T>(entity).Property(o => o.ID).IsModified = false;
+            _context.Entry(entity).CurrentValues.SetValues(updated);
+            _context.Entry(entity).Property(o => o.ID).IsModified = false;
             _context.SaveChanges();
         }
     }

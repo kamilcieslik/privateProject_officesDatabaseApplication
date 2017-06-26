@@ -1,28 +1,21 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 using RogalApplication.Properties;
 
-namespace BazaKlientów
+namespace RogalApplication
 {
     public partial class TradePredefinitions : Form
     {
-        public ComboBox comboBoxTrade;
+        public ComboBox ComboBoxTrade;
         public TradePredefinitions(ComboBox comboBoxTrade)
         {
-            this.comboBoxTrade = comboBoxTrade;
+            ComboBoxTrade = comboBoxTrade;
 
             InitializeComponent();
 
-            for (int i = 0; i < comboBoxTrade.Items.Count; i++)
+            foreach (var t in comboBoxTrade.Items)
             {
-                listBoxTradePredefinitions.Items.Add(comboBoxTrade.Items[i].ToString());
+                listBoxTradePredefinitions.Items.Add(t.ToString());
             }
         }
 
@@ -36,25 +29,23 @@ namespace BazaKlientów
 
         private void buttonAdd_Click(object sender, EventArgs e)
         {
-            if (textBoxPredefinition.Text != "")
-            {
-                listBoxTradePredefinitions.Items.Add(textBoxPredefinition.Text);
-                textBoxPredefinition.Text="";
-            }
+            if (textBoxPredefinition.Text == "") return;
+            listBoxTradePredefinitions.Items.Add(textBoxPredefinition.Text);
+            textBoxPredefinition.Text="";
         }
 
   
         private void TradePredefinitions_FormClosing(object sender, FormClosingEventArgs e)
         {
             Settings.Default.ListTradePredefinitions.Clear();
-            for (int i = 0; i < comboBoxTrade.Items.Count; i++)
+            for (var i = 0; i < ComboBoxTrade.Items.Count; i++)
             {
-                comboBoxTrade.Items.RemoveAt(i);
+                ComboBoxTrade.Items.RemoveAt(i);
             }
-            for (int i = 0; i < listBoxTradePredefinitions.Items.Count; i++)
+            foreach (var t in listBoxTradePredefinitions.Items)
             {
-                comboBoxTrade.Items.Add(listBoxTradePredefinitions.Items[i].ToString());
-                Settings.Default.ListTradePredefinitions.Add(listBoxTradePredefinitions.Items[i].ToString());
+                ComboBoxTrade.Items.Add(t.ToString());
+                Settings.Default.ListTradePredefinitions.Add(t.ToString());
             }
             Settings.Default.Save();
         }
